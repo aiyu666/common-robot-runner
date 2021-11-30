@@ -1,0 +1,15 @@
+[[source]]
+2url = "https://pypi.org/simple"
+3verify_ssl = true
+4name = "pypi"
+5
+6[packages]
+7
+8[dev-packages]
+9pytest = "*"
+10
+11[requires]
+12python_version = "3.9"
+13
+14[scripts]
+15test = "pytest"
