@@ -16,9 +16,15 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: "3.x"
+      - name: echo PYTHONPATH
+        run: |
+          echo $PYTHONPATH
       - name: Set PYTHONPATH
         run: |
           echo "PYTHONPATH='$(pwd)'" >> $GITHUB_ENV
+      - name: echo PYTHONPATH
+        run: |
+          echo $PYTHONPATH
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
