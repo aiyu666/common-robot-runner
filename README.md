@@ -4,9 +4,9 @@
 
 ### Install package
 ```
-pip install -r requirements
+pip install -r requirements.txt
 or 
-pip3 install -r requirements
+pip3 install -r requirements.txt
 ```
 
 ### Set PYTHONPATH
