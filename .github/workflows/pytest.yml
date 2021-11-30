@@ -18,7 +18,7 @@ jobs:
           python-version: "3.x"
       - name: Set PYTHONPATH
         run: |
-            export PYTHONPATH="$(pwd)"
+          echo "PYTHONPATH='$(pwd)'" >> $GITHUB_ENV
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
