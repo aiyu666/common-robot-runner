@@ -21,4 +21,4 @@ pytest
 
 
 ## Sequence chart
-![](https://imgur.com/a/OjSJPQi)
+![](https://i.imgur.com/Q1DWZTu.png)
