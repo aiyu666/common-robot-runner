@@ -24,7 +24,7 @@ If the check lint when you commit
 ![](https://i.imgur.com/qUXkF7G.png)
 
 #### Success result
-
+![](https://i.imgur.com/73jtvDX.png)
 
 ## How to test?
 ```
