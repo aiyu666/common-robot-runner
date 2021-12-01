@@ -26,10 +26,19 @@ pytest
 4. push
 5. create PR
 6. link PR with ticket
-    ![](https://i.imgur.com/BBdPlIJ.png)
-    ![](https://i.imgur.com/iUk0IDG.png)
-    ![](https://i.imgur.com/r3s7klb.png)
-    ![](https://i.imgur.com/FtTa2Gf.png)
+    * 點擊強化功能的 "Github" -> 選取附加提取要求(PR)
+
+        ![](https://i.imgur.com/Wuf10eL.png)
+    * 選取 PR
+
+        ![](https://i.imgur.com/aZwCyfy.png)
+
+    * Trello 會顯示 PR
+
+        ![](https://i.imgur.com/fzCKZlE.png)
+    * PR 會顯示 Trello ticket link
+        
+        ![](https://i.imgur.com/Scsyne2.png)
 
 7. request code review
 8. squash merge
