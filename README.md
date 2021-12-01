@@ -19,6 +19,6 @@ export PYTHONPATH="$(pwd)"
 pytest
 ```
 
-
 ## Sequence chart
+
 ![](https://i.imgur.com/Q1DWZTu.png)
