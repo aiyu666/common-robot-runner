@@ -5,7 +5,7 @@
 ### Install package
 ```
 pip install -r requirements.txt
-or 
+or
 pip3 install -r requirements.txt
 ```
 
@@ -13,6 +13,18 @@ pip3 install -r requirements.txt
 ```
 export PYTHONPATH="$(pwd)"
 ```
+
+### Install pre-commit
+```
+pre-commit install
+```
+
+If the check lint when you commit
+#### Fail result
+![](https://i.imgur.com/qUXkF7G.png)
+
+#### Success result
+
 
 ## How to test?
 ```
@@ -37,7 +49,7 @@ pytest
 
         ![](https://i.imgur.com/fzCKZlE.png)
     * PR 會顯示 Trello ticket link
-        
+
         ![](https://i.imgur.com/Scsyne2.png)
 
 7. request code review
