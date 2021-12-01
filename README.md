@@ -27,5 +27,9 @@ pytest
 5. create PR
 6. link PR with ticket
     ![](https://i.imgur.com/BBdPlIJ.png)
+    ![](https://i.imgur.com/iUk0IDG.png)
+    ![](https://i.imgur.com/r3s7klb.png)
+    ![](https://i.imgur.com/FtTa2Gf.png)
+
 7. request code review
 8. squash merge
