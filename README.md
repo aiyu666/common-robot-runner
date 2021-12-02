@@ -26,17 +26,17 @@ pytest
 4. Push
 5. Create PR
 6. Link PR with ticket
-    * 點擊強化功能的 "Github" -> 選取附加提取要求(PR)
+    * Click Power-Ups ->  "Github" -> "Attach Pull Request..."
 
         ![](https://i.imgur.com/Wuf10eL.png)
-    * 選取 PR
+    * Select your Pull Request
 
         ![](https://i.imgur.com/aZwCyfy.png)
 
-    * Trello 會顯示 PR
+    * Trello will show your Pull Request
 
         ![](https://i.imgur.com/fzCKZlE.png)
-    * PR 會顯示 Trello ticket link
+    * Github Pull Request will comment the trello ticket link
 
         ![](https://i.imgur.com/Scsyne2.png)
 
