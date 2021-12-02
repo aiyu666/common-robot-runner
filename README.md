@@ -1,12 +1,26 @@
 # common-robot-runner
 
-## Set dev env
+## Setup your development environment
+### Install  pipenv
+* Brew
+    ```
+    brew install pipenv
+    ```
+* pip
+    ```
+    pip install pipenv
+    ```
 
-### Install package
+### Run the vurtual environment
 ```
-pip install -r requirements.txt
+pipenv shell
+```
+
+### How to install package in your vurtual environment?
+```
+pipenv install <package_name>
 or
-pip3 install -r requirements.txt
+pipenv install <package_name> --dev
 ```
 
 ### Set PYTHONPATH
