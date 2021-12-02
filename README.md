@@ -5,7 +5,7 @@
 ### Install package
 ```
 pip install -r requirements.txt
-or 
+or
 pip3 install -r requirements.txt
 ```
 
@@ -18,3 +18,27 @@ export PYTHONPATH="$(pwd)"
 ```
 pytest
 ```
+
+## Work flow
+1. Checkout branch DQA-<ticket_number>
+2. Coding
+3. Fetch + rebase or pull master
+4. Push
+5. Create PR
+6. Link PR with ticket
+    * Click Power-Ups ->  "Github" -> "Attach Pull Request..."
+
+        ![](https://i.imgur.com/Wuf10eL.png)
+    * Select your Pull Request
+
+        ![](https://i.imgur.com/aZwCyfy.png)
+
+    * Trello will show your Pull Request
+
+        ![](https://i.imgur.com/fzCKZlE.png)
+    * Github Pull Request will comment the trello ticket link
+
+        ![](https://i.imgur.com/Scsyne2.png)
+
+7. Request code review
+8. Squash merge
