@@ -23,13 +23,6 @@ or
 pipenv install <package_name> --dev
 ```
 
-### Install package
-```
-pip install -r requirements.txt
-or
-pip3 install -r requirements.txt
-```
-
 ### Set PYTHONPATH
 ```
 export PYTHONPATH="$(pwd)"
