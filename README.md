@@ -14,6 +14,22 @@ pip3 install -r requirements.txt
 export PYTHONPATH="$(pwd)"
 ```
 
+### Install pre-commit
+```
+brew install pre-commit
+or
+pip install pre-commit
+
+pre-commit install
+```
+
+If the check lint when you commit
+#### Fail result
+![](https://i.imgur.com/qUXkF7G.png)
+
+#### Success result
+![](https://i.imgur.com/sMI5pWI.png)
+
 ## How to test?
 ```
 pytest
