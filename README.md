@@ -23,7 +23,7 @@ pip install pre-commit
 pre-commit install
 ```
 
-If the check lint when you commit
+### Check lint when you commit by pre-commit
 #### Fail result
 ![](https://i.imgur.com/qUXkF7G.png)
 
