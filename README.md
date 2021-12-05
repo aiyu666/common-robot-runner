@@ -27,6 +27,15 @@ pipenv install <package_name> --dev
 ```
 export PYTHONPATH="$(pwd)"
 ```
+## How to run in docker?
+1. Build docker image
+```
+$ docker build -t common-robot-runner .
+```
+2. Run the container
+```
+$ docker run -it <image_id> /bin/bash
+```
 
 ### Install pre-commit
 ```
