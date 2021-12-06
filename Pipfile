@@ -8,6 +8,7 @@ name = "pypi"
 [dev-packages]
 pytest = "*"
 pre-commit = "*"
+docker = "*"
 
 [requires]
 python_version = "3.9"
