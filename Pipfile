@@ -8,6 +8,10 @@ name = "pypi"
 [dev-packages]
 pytest = "*"
 pre-commit = "*"
+autopep8 = "*"
 
 [requires]
+fire = "*"
+python-dotenv = "*"
 python_version = "3.9"
+slack_bolt = "1.10.0"
